@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: pulish
-        run: node ceshi.js 
+        run: node ./ceshi.js 
         env:
           POSTGRES_HOST: post
           POSTGRES_PORT: 5432
