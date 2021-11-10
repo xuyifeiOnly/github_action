@@ -1,1 +1,1 @@
-console.log(131)
+console.log(process.env.POSTGRES_PORT);
